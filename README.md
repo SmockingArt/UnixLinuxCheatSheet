@@ -21,9 +21,9 @@ _**Cheat Sheet for Unix Linux**_
 ---
 
 
-### Gestionnaire de paquets
+# Gestionnaire de paquets
 
-**Mise à jour du système :**
+## Mise à jour du système :
 
 |Commande|Description|
 |---|---|
@@ -31,15 +31,14 @@ _**Cheat Sheet for Unix Linux**_
 |`sudo apt-get upgrade`|Mettre à jour les paquets et leurs dépendances.|
 |`sudo apt-get dist-upgrade`|Mettre à jour les paquets et installer de nouveaux paquets si nécessaire.|
 
-**Recherche et installation de paquets :**
-
+## Recherche et installation de paquets :
 |Commande|Description|
 |---|---|
 |`apt-cache search <nom>`|Chercher un paquet par son nom.|
 |`sudo apt-get install <paquet>`|Installer un paquet.|
 |`sudo apt-get source <paquet>`|Télécharger les sources d'un paquet.|
 
-**Suppression de paquets :**
+## Suppression de paquets :
 
 |Commande|Description|
 |---|---|
@@ -67,9 +66,52 @@ _**Cheat Sheet for Unix Linux**_
 |[**read**](https://man.cx/read(2)/fr)|Lire depuis un descripteur de fichier|
 |[**write**](https://man.cx/write(2)/fr)|Écrire dans un descripteur de fichier|
 
+ Planification de tâches
+
+# Formats de date 
+
+|Format|Description|
+|---|---|
+|`%A`|Jours (complet ou abrégé)|
+|`%a`|Jours (complet ou abrégé)|
+|`%B`|Mois (complet ou abrégé)|
+|`%b`|Mois (complet ou abrégé)|
+|`%d`|Numéro du jour (01 à 31)|
+|`%m`|Numéro du mois (01 à 12)|
+|`%Y`|Numéro de l'année (ex: 2019)|
+|`%y`|Numéro de l'année (ex: 19)|
+|`%H`|Heure (00 à 23)|
+|`%M`|Minute (00 à 59)|
+|`%S`|Seconde (00 à 59)|
+
+## Raccourcis :
+
+|Raccourci|Description|
+|---|---|
+|`%F`|Équivalent à `%Y-%m-%d`|
+|`%T`|Équivalent à `%H:%M:%S`|
+
+## Modification de la date du système :
+
+Le format de modification de la date du système est `mmddHHMMYYYY`.
+
+## Planification de tâches :
+
+|Commande|Description|
+|---|---|
+|`at`|Programmer une tâche.|
+|`atq`|Afficher la liste des tâches planifiées.|
+|`atrm`|Supprimer une tâche planifiée.|
+|`cron`|Programmation de tâches récurrentes.|
+|`crontab -e`|Éditer le fichier crontab.|
+
+## Trouver le chemin d'une commande :
+
+|Commande|Description|
+|---|---|
+|`whereis <nom de la commande>`|Trouver le chemin d'une commande.|
 
 # Commande Annexe 
-
 
 |NOM|DESCRIPTION|
 |:--:|:--|
