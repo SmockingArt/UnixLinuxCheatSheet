@@ -15,7 +15,7 @@ _**Cheat Sheet for Unix Linux**_
 
 ---
 
- [📚 Table of contents] | [Cheat Sheet Image](#Image) 
+ 📚 **Table of contents** | [Cheat Sheet Image](#Image) 
 
 
 ---
