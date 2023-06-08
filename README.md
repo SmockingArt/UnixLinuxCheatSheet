@@ -58,6 +58,31 @@ _**Cheat Sheet for Unix Linux**_
 |/etc/network/**interfaces**|Configuration historique des interfaces réseau (sans systemd)|
 |/etc/systemd/**network**|Configuration des interfaces réseau via networkd (systemd)|
 
+|Chemin|Contenu|
+|---|---|
+|**/**|Répertoire racine, base du système de fichiers.|
+|**/bin**|Fichiers binaires exécutables.|
+|**/boot**|Fichiers nécessaires au démarrage.|
+|**/cdrom**|Répertoire de montage par défaut des CD et DVD.|
+|**/dev**|Fichiers spéciaux des périphériques.|
+|**/etc**|Fichiers de configuration du système et de diverses applications.|
+|**/home**|Dossiers personnels des utilisateurs.|
+|**/lib**|Bibliothèques du système. On trouve également les dossiers lib32, lib64 et libx32 pour les systèmes supportant plusieurs architectures binaires.|
+|**/lib64**|Idem mais en 64 bits.|
+|**/lost+found**|Répertoire contenant les fichiers orphelins ou endommagés trouvés lors d’une vérification du système de fichiers. Sa présence indique que le répertoire courant est la racine d’un système de fichiers.|
+|**/media**|Répertoire de montage des périphériques temporaires (clé USB, DVD, disque externe, etc.).|
+|**/mnt**|Répertoire de montage plutôt utilisé pour les tests de l’administrateur ou des montages manuels.|
+|**/opt**|Applications ou bibliothèques supplémentaires devant être placées dans une arborescence spécifique.|
+|**/proc**|Système de fichiers virtuel proposant une interface vers les fonctions et paramètres du noyau.|
+|**/root**|Dossier de l’administrateur. Il n’est pas dans home.|
+|**/sbin**|Fichiers binaires exécutables dédiés à l’administrateur.|
+|**/srv**|Données des services offerts par le système.|
+|**/sys**|Système de fichiers virtuel, similaire à /proc mais dédié notamment aux périphériques de type blocs.|
+|**/tmp**|Fichiers temporaires.|
+|**/usr**|Fichiers binaires, bibliothèques, sources, documentations, etc. exploitables par l’utilisateur.|
+|**/var**|Fichiers et dossiers à contenus variables comme les journaux système, les spools d’impression, les messages, etc.|
+
+
 # Fonctions système
 
 |NOM|DESCRIPTION|
