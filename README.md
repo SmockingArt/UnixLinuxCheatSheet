@@ -17,10 +17,7 @@ _**Cheat Sheet for Unix Linux**_
 
  📚 **Table of contents** | [Cheat Sheet Image](#Image) 
 
-[HOWTOS](https://www.linuxhowtos.org/sitemap/)
-[Linux](https://www.linux.org/)
-[gnu](http://www.gnu.org/)
-[tldp](http://www.tldp.org/)
+[HOWTOS](https://www.linuxhowtos.org/sitemap/) | [Linux](https://www.linux.org/) | [gnu](http://www.gnu.org/) | [tldp](http://www.tldp.org/) |
 
 ---
 
